@@ -1,4 +1,4 @@
-int value = 300;
+int value = 700;
 public void setup()
 {
   background(255);
