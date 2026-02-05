@@ -11,11 +11,11 @@ public void draw()
 public void mousePressed()//optional
 {
   value /= 2;
-  fill(255);
 }
 public void sierpinski(int x, int y, int len) 
 {
   if(len <= value){
+    fill(255,192,203);
     triangle(x,y,x+len,y,x+len/2, y - len);
   }
   else{
